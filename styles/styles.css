@@ -12,6 +12,7 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Inter', sans-serif;
     font-family: 'Manrope', sans-serif;
+    max-width: 1440px;
 }
 
 
@@ -42,13 +43,14 @@
 
  }
 body{
-    max-width: 1440px;
+    
 }
+
 header{
     
     padding: 80px 120px ;
 
-}
+} 
 nav{
    
  display: flex;
@@ -78,7 +80,7 @@ nav li img{
 }
 .teams-container{
     display: flex;
-    width: 1440px;
+
     align-items: center;
     }
  
@@ -153,11 +155,11 @@ line-height: 70px; /* 250% */
   
 }
 .facts-card-container .card{
-    border-radius: 5px;
+border-radius: 5px;
 background: #FFF;
 box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 width: 329px;
-height: 446px;
+height: 486px;
 padding:20px;
 padding-left: 40px;
 
@@ -168,12 +170,16 @@ padding-left: 40px;
 .facts-card-container .card-stats{
     color: #18191F;
     font-size: 28px;
+    padding-top: 16px;
     font-weight: 500;
+    text-align: left;
 
 }
 .facts-card-container .card-price{
     color: rgba(0, 0, 0, 0.87);
 font-family: Inter;
+text-align: left;
+padding-top: 8px;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -186,12 +192,13 @@ font-weight: 400;
 font-family: Inter;
 font-size: 14px;
 font-weight: 700;
+padding-top: 20px;
 }
 .see{
     display: flex;
     gap: 5px;
     padding-top: 30px;
-  padding-left: 1310px;
+  padding-left: 1285px;
 
 }
 .see h3{
@@ -208,6 +215,7 @@ line-height: normal;
     display: flex;
     width: 1110px;
    margin: 0 auto;
+   padding-bottom: 100px;
  
 
 }
@@ -221,7 +229,7 @@ line-height: normal;
 .feature-content{
     height: 224px;
 padding-left: 90px;
-padding-top: 80px;
+padding-top: 65px;
 
 }
 .feature-content-title{
@@ -259,12 +267,46 @@ line-height: 28px; /* 175% */
     cursor: pointer;
     border: 0;
 }
+.foot{
+    width: 1440px;
+    height: 239px;
+    background: #0A0826;
 
+}
+.foot h1,h2,h3{
+    color: #FFF;
+    text-align: center;
+    padding-top: 50px;
+}
+.foot h1{
+    color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.foot h2,h3{
+    color: var(--Text-Gray-300, #D9DBE1);
+font-feature-settings: 'liga' off;
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+padding-top: 3px;
+line-height: 24px; /* 171.429% */
+}
 
+.icon{
+    align-items: center;
+    text-align: center;
+   
 
-
-
-
+}
+.icon img{
+    padding-right: 8px;
+}
 
 
 
