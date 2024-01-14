@@ -1,0 +1,301 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Poppins:wght@200;400;500;600;700;800&display=swap');
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Manrope:wght@400;500;600;700&family=Poppins:wght@200;400;500;600;700;800&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.text-light-gray{
+    color: #3A3A3A;
+}
+.section-title{
+    font-size: 1.5rem;
+    color: #3A3A3A;
+    font-weight: 700;
+   padding-left: 70px;
+  
+
+
+}
+.btn-primary{
+    border-radius: 41px;
+    background: #E02C6D;
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items:center;
+    justify-content: space-between;
+    gap: 8px;
+    font-weight: 700;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+
+ }
+body{
+    max-width: 1440px;
+}
+header{
+    
+    padding: 80px 120px ;
+
+}
+nav{
+   
+ display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav > ul{
+    display: flex;
+   
+}
+nav li {
+    list-style: none;
+    margin-right: 30px ;
+   
+    font-weight: 600;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #3A3A3A;
+   
+}
+nav li img{
+    justify-content: space-evenly;
+    align-items: end;
+}
+.teams-container{
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    }
+ 
+.teams-content{
+    padding-right: 70px;
+    padding-left: 70px;
+}   
+.teams-title{
+    font-size: 3.25rem;
+    color: #3A3A3A;
+    font-weight: 700;
+    
+}
+.teams-img-container{
+  padding-top: 80px;
+  align-items: center;
+  justify-content: center;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+   
+    width: 440px;
+    height: 414px;
+   
+}
+
+/*main section */
+main{
+   
+    margin:30px auto;
+}
+.sponsors{
+    
+    text-align: center;
+    width: 1110px;
+    height: 110px;
+    margin-top: 100px;
+    object-fit: cover;
+    margin: 0 auto;
+   
+
+    
+}
+.sponsors-img-container{
+    width: 1110px;
+    height: 110px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    
+ }
+/*facts section*/
+.facts-title{
+    text-align: center;
+    padding-top: 100px;
+    color: #3A3A3A;
+font-family: Poppins;
+font-size: 28px;
+
+font-weight: 600;
+line-height: 70px; /* 250% */
+
+
+}
+.facts-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   align-items: center;
+   padding-left: 70px;
+   padding-top: 30px;
+   gap: 30px;
+  
+}
+.facts-card-container .card{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+width: 329px;
+height: 446px;
+padding:20px;
+padding-left: 40px;
+
+
+}
+
+
+.facts-card-container .card-stats{
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 500;
+
+}
+.facts-card-container .card-price{
+    color: rgba(0, 0, 0, 0.87);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+
+}
+
+
+.facts-card-container .card-title{
+    color: #787885;
+font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+}
+.see{
+    display: flex;
+    gap: 5px;
+    padding-top: 30px;
+  padding-left: 1310px;
+
+}
+.see h3{
+    color: rgba(224, 44, 109, 0.87);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.feature-container{
+    display: flex;
+    width: 1110px;
+   margin: 0 auto;
+ 
+
+}
+.feature-img-container{
+    width: 404px;
+    height: 270px;
+    border-radius: 7px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.feature-content{
+    height: 224px;
+padding-left: 90px;
+padding-top: 80px;
+
+}
+.feature-content-title{
+    color: #0A0826;
+   
+    font-family: Poppins;
+    font-size: 38px;
+    line-height: 60px;
+    font-size: 38px;
+    font-weight: 700;
+    
+}
+.feature-content p{
+    color: #6C6C6C;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+width: 501px;
+
+font-weight: 700;
+line-height: 28px; /* 175% */
+}
+
+.btn-primary1{
+   
+    background: #E02C6D;
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items:center;
+    justify-content: space-between;
+    gap: 8px;
+    color: #FFF;
+    font-weight: 700;
+    cursor: pointer;
+    border: 0;
+}
+
+
+
+
+
+
+
+
+
+ /*resposive media queries */
+/*mobile devices*/
+@media screen and (max-width: 676px) {
+    header{
+        padding: 10px;
+    }
+    nav,
+    .teams-container,
+    .sponsors
+   
+    {
+       flex-direction: column;
+    }
+    .sponsors-img-container{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .teams-img-container,
+    .sponsors,
+    .facts-card-container{
+        grid-template-columns: 1fr;
+    }   
+    .teams-content {
+        padding-right: 20px;
+        padding-left: 20px;
+    
+    }
+    
+
+}
